@@ -1,0 +1,42 @@
+# / root 是指此 .gitignore檔 所在的資料夾, 
+# 
+# *.副檔名
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# java class file
+*.class
+
+# Package Files #
+*.war
+*.ear
+*.jar
+/target
+/.settings
+/.classpath
+/.project
+/.idea
+
+# ignore Maven generated target folders
+target
+out
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+	.factorypath
+.metadata
+.idea
+*.iml
+
+# ignore log files
+*.log
+
+/build/
+#./temp_*/
